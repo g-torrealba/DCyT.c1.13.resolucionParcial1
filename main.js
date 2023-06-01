@@ -72,11 +72,11 @@ compania.procesarAsesoria(asesoria5);
 
 let salida = document.getElementById("app");
 salida.innerHTML = "RESULTADOS";
-salida.innerHTML += `<br>Asesoría 1: Descuento=${asesoria1.montoDescuento()} - total neto=${asesoria1.totalNeto()}`;
-salida.innerHTML += `<br>Asesoría 2: Descuento=${asesoria2.montoDescuento()} - total neto=${asesoria2.totalNeto()}`;
-salida.innerHTML += `<br>Asesoría 3: Descuento=${asesoria3.montoDescuento()} - total neto=${asesoria3.totalNeto()}`;
-salida.innerHTML += `<br>Asesoría 4: Descuento=${asesoria4.montoDescuento()} - total neto=${asesoria4.totalNeto()}`;
-salida.innerHTML += `<br>Asesoría 5: Descuento=${asesoria5.montoDescuento()} - total neto=${asesoria5.totalNeto()}`;
+salida.innerHTML += `<br>CLIENTE 1: Descuento=${asesoria1.montoDescuento()} - total neto=${asesoria1.totalNeto()}`;
+salida.innerHTML += `<br>CLIENTE 2: Descuento=${asesoria2.montoDescuento()} - total neto=${asesoria2.totalNeto()}`;
+salida.innerHTML += `<br>CLIENTE 3: Descuento=${asesoria3.montoDescuento()} - total neto=${asesoria3.totalNeto()}`;
+salida.innerHTML += `<br>CLIENTE 4: Descuento=${asesoria4.montoDescuento()} - total neto=${asesoria4.totalNeto()}`;
+salida.innerHTML += `<br>CLIENTE 5: Descuento=${asesoria5.montoDescuento()} - total neto=${asesoria5.totalNeto()}`;
 salida.innerHTML += `<br>Total monto percibido por las asesorías: ${compania.totalRecibidoPorAsesorias()}`;
 salida.innerHTML += `<br>Entre el tipo de asesoría A y asesoría B la más solicitada ${compania.masSolicitadoEntreAyB()}`;
 salida.innerHTML += `<br>Total neto pagado por servicios que no obtuvieron descuentos ${compania.pagadoPorServiciosSinDescuento()}`;
